@@ -1,0 +1,17 @@
+main{
+    display: flex;
+}
+
+.items-main{
+    
+    width: 50%;
+    height: calc(100vh - 58px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    background-color: rgb(43, 177, 187);
+}

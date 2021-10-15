@@ -1,0 +1,20 @@
+form{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+form input{
+    padding: 5px;
+    width: 200px;
+    outline: none;
+    
+}
+
+button{
+    margin-top: 10px;
+    padding: 5px;
+   
+}
