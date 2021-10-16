@@ -1,6 +1,7 @@
 import { useState, useContext } from "react";
 import './style.css';
 import UserContext from "../../contexts/UserContext";
+import useUser from "../../hooks/useUser";
 
 
 const EditProfile = () => {

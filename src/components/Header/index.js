@@ -1,11 +1,9 @@
 import './style.css';
-import UserContext from '../../contexts/UserContext';
-import { useContext } from 'react';
+import useUser from '../../hooks/useUser';
 
 const Header = () => {
-    const {name} = useContext(UserContext);
-   
-
+    const {name} = useUser();
+    
     return(
         <header>
             Bem vinde {name}! 
